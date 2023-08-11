@@ -1,0 +1,16 @@
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .owl-carousel .prev-slide{
+    background: url(nav-icon.png) no-repeat scroll 0 0;
+    left: -33px;
+}
+.owl-carousel .next-slide{
+    background: url(nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+}

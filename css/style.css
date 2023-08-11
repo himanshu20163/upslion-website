@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* heading part */
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    padding:20px 0px;
+}
+
+.section-sub-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* header section */
+
+.upsilon-header-container {
+    height: auto;
+    width: 100%;
+    box-shadow: 2px 0px 2px black;
+}
+
+.upsilon-header-container .upslion-menu {
+    height: auto;
+    width: 100%;
+}
+
+.upsilon-header-container .upslion-menu ul li a {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+.upsilon-header-container .upslion-cart {
+    width: 6%;
+}
+
+.upsilon-header-container .upslion-cart ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#CartCount,
+.favCount {
+    position: absolute;
+    background: #030505;
+    color: #fff;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    line-height: 17px;
+    font-size: 11px;
+    right: 7px;
+    top: 3px;
+    padding-left: 5px;
+}
+
+/* end header section */
+
+/* slider section */
+.upslion-slider-container {
+    width: 100%;
+    height: auto;
+}
+
+.upslion-slider-container .carousel-dark .carousel-indicators [data-bs-target] {
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.upslion-slider-container .carousel-dark .carousel-indicators [data-bs-target]:active {
+    background-color: #FF6005;
+}
+
+.upslion-slider-container .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+/* end slider section */
+
+/* start discover section */
+
+.uplsion-discover-container {
+    padding: 48px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.uplsion-discover-container .discover-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.uplsion-discover-container .discover-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0px;
+}
+
+.uplsion-discover-container .discover-box img {
+    background-color: #E6F0F2;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.uplsion-discover-container .descover-desc {
+    padding-left: 20px;
+}
+
+.uplsion-discover-container .descover-desc h4 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.4px;
+}
+
+/* end discover section */
+
+/* start upsilon story section */
+.upsilon-story-container {
+    padding: 10em;
+    width: 100%;
+    height: auto;
+    background: url('../image/uplison-story-bg.png')no-repeat;
+    background-size: cover;
+}
+
+.upsilon-story-container .story-title {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.upsilon-story-container .story-desc {
+    width: 50%;
+}
+
+.upsilon-story-container .story-btn {
+    width: 166px;
+    height: 48px;
+    background-color: #030505;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+/* end upsilon story section */
+
+/* shipping details */
+
+.upsilon-shipping-details {
+    width: 100%;
+    height: auto;
+    padding: 48px 0px;
+}
+
+.upsilon-shipping-details .shipping-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.upsilon-shipping-details .shipping-box h5 {
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* end shipping details */
+
+/* best selling section start */
+.upsilon-best-selling-parfum-container {
+    width: 100%;
+    height: auto;
+    padding: 48px 0px;
+}
+
+.upsilon-best-selling-parfum-container .unisolan-product-box {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.upsilon-best-selling-parfum-container .unisolan-product-box span {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.upsilon-best-selling-parfum-container .unisolan-product-box .real-price {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: red;
+}
+
+.upsilon-best-selling-parfum-container .unisolan-product-box img {
+    padding: 10px 0px;
+}
+
+.upsilon-best-selling-parfum-container .unisolan-product-box .cart-btn {
+    width: 126px;
+    height: 48px;
+    background-color: #030505;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+/* end best selling products */
+
+/* start special perfume */
+.upsilon-special-perfume-container{
+    padding: 10em;
+    width: 100%;
+    height: auto;
+    background: url('../image/special-perfum0bg.png')no-repeat;
+    background-size: cover;
+}
+.upsilon-special-perfume-container .story-title {
+    font-size: 40px;
+    font-weight: 400;
+}
+.upsilon-special-perfume-container .story-desc {
+    width: 50%;
+}
+/* end upsilon special perfume */
+.upslion-digital-ad-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 48px 0px;
+}
+.upslion-digital-ad-container .video-play{
+    width: 100%;
+    margin-left:50px;
+}
+
+/* end digital ad container */
+
+/* upslion influncer club start */
+
+.upslion-infulncer-club{
+    width:100%;
+    height: auto;
+}
+
+/* end upslion club */
+
+/* upslion partner start */
+.upslion-partner-container{
+    width:100%;
+    height: auto;
+    background-color: #E6F0F2;
+    padding: 10px 0px;
+}
+/* end upslion partner */
+
+/* upslion-blog-container start */
+.upslion-blog-container{
+    padding:48px 0px;
+    width: 100%;
+    height: 40vh;
+    border:2px solid red;
+}
+.upslion-blog-container .blog-box{
+    width: 100%;
+    height: auto;
+}
+.upslion-blog-container .blog-box p{
+    padding: 10px 0px;
+    white-space: pre-line;
+    font-size: 18px;
+    font-weight: 400;
+}
+.upslion-blog-container .blog-box button{
+    width: 166px;
+    height: 48px;
+    background-color: #030505;
+    color: #fff;
+}
+.upslion-blog-container .blog-allbox{
+    text-align: center;
+    width:400px;
+    height: 400px;
+    padding: 80px ;
+    background-color: #E6F0F2;
+}
+.upslion-blog-container .blog-allbox button{
+    width: 166px;
+    height: 48px;
+    background-color: #030505;
+    color: #fff;
+}
+
+
+
+
+
+
+
