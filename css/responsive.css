@@ -1,0 +1,193 @@
+@media (min-width:767px) and (max-width:991px) {
+    .upsilon-story-container{
+        padding: 2em;
+    }
+    .upsilon-special-perfume-container .story-title{
+        font-size: 24px;
+    }
+    .upsilon-special-perfume-container .story-desc{
+        width: 100%;
+    }
+    .upsilon-special-perfume-container{
+        padding: 2em;
+    }
+    .upslion-digital-ad-container iframe{
+        width:100%;
+        height: auto;
+    }
+    .upslion-digital-ad-container iframe{
+        width:100%;
+        height: 250px;
+    }
+    .upslion-digital-ad-container .video-play{
+        margin-left: 0px;
+    }
+    .upslion-blog-container .blog-allbox{
+        width: 100%;
+        height: auto;
+        margin:10px 0px;
+        padding: 20px;
+    }
+    .upslion-youtube-review iframe{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .section-title{
+        font-size: 28px;
+    }
+    .upsilon-story-container{
+        padding: 2em;
+    }
+    .upsilon-story-container .story-title{
+        font-size: 28px;
+    }
+    .upsilon-story-container .story-desc {
+        width: 80%;
+    }
+    .upsilon-best-selling-parfum-container .unisolan-product-box img{
+        width: 100%;
+    }
+    .upsilon-special-perfume-container{
+        padding: 2em;
+    }
+    .upsilon-special-perfume-container .story-title{
+        font-size: 24px;
+    }
+    .upsilon-special-perfume-container .story-desc{
+        width: 100%;
+    }
+    .upslion-digital-ad-container iframe{
+        width:100%;
+        height: auto;
+    }
+    .upslion-digital-ad-container .video-play{
+        margin-left: 0px;
+    }
+    .upslion-blog-container .blog-allbox{
+        width: 100%;
+        height: auto;
+        margin:10px 0px;
+        padding: 20px;
+    }
+    .upslion-youtube-review iframe{
+        width: 100%;
+    }
+    .upsilon-instagram-box {
+        left: 2rem;
+    }
+    /* 
+    
+    
+    .upsilon-best-selling-parfum-container,.upsilon-special-perfume-container{
+        padding: 24px 0px;
+    }
+    .upsilon-best-selling-parfum-container .unisolan-product-box img{
+        width:200px;
+        height: 200px;
+    }
+    .upsilon-best-selling-parfum-container .unisolan-product-box .rating{
+        width:50px;
+        height: 30px;
+    }
+    .upslion-digital-ad-container .video-play{
+        margin: 0px;
+    }
+    .upslion-digital-ad-container iframe{
+        width: 100%;
+    }
+    .upslion-blog-container img{
+        width:200px;
+        height: 200px;
+    }
+    .upslion-blog-container .blog-box p{
+        font-size: 14px;
+    }
+    .upslion-blog-container .blog-allbox {
+        padding: 25px;
+        height: auto;
+        width: 100%;
+    }
+    .upslion-blog-container .blog-allbox p{
+        font-size: 14px;
+    }
+    .upslion-blog-container .blog-box img {
+        width: 100%;
+        height: auto;
+    }
+    .upslion-partner-container img{
+      width:100%;
+      height: auto;
+    }  
+    .upslion-youtube-review iframe{
+        width: 100%;
+        height: auto;
+    }
+    .owl-item{
+        width: auto;
+    } */
+}
+
+@media screen and (max-width:480px) {
+    .item img{
+        width: 100%;
+    }
+    .section-title{
+        font-size: 28px;
+    }
+    .uplsion-discover-container .discover-box{
+        margin:10px 0px;
+    }
+    .upsilon-story-container{
+        padding: 2em;
+    }
+    .upsilon-story-container .story-title{
+        font-size: 28px;
+    }
+    .upsilon-story-container .story-desc {
+        width: 100%;
+    }
+    .upsilon-best-selling-parfum-container{
+        padding: 20px 0px;
+    }
+    .upsilon-best-selling-parfum-container .unisolan-product-box img{
+        width: 100%;
+    }
+    .upsilon-best-selling-parfum-container .unisolan-product-box .rating{
+        width:50px;
+        height: 30px;
+    }
+    .upsilon-special-perfume-container{
+        padding: 2em;
+    }
+    .upsilon-special-perfume-container .story-title{
+        font-size: 24px;
+    }
+    .upsilon-special-perfume-container .story-desc{
+        width: 100%;
+    }
+    .upslion-digital-ad-container iframe{
+        width:100%;
+        height: auto;
+    }
+    .upslion-digital-ad-container .video-play{
+        margin-left: 0px;
+    }
+    .upslion-blog-container .blog-allbox{
+        width: 100%;
+        height: auto;
+        margin:10px 0px;
+        padding: 20px;
+    }
+    .upslion-youtube-review iframe{
+        width: 100%;
+    }
+    .upsilon-footer-container .footer-developed{
+        text-align: start;
+    }
+    .upsilon-instagram-box {
+        left: 2rem;
+    }
+}
