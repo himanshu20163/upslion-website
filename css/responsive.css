@@ -1,3 +1,12 @@
+@media (min-width:992px) and (max-width:1199px) {
+    .upslion-youtube-review iframe{
+        width: 100%;
+    }
+    .upsilon-instagram-box{
+        width: 25rem;
+    }
+}
+
 @media (min-width:767px) and (max-width:991px) {
     .upsilon-story-container{
         padding: 2em;
@@ -30,6 +39,16 @@
     }
     .upslion-youtube-review iframe{
         width: 100%;
+    }
+    .upsilon-instagram-box {
+        left: 12rem;
+    }
+    .upslion-blog-container .blog-box img{
+        width: 100%;
+    }
+    .owl-wrapper .item img{
+        width: 100%;
+        height: 250px;
     }
     
 }
@@ -78,56 +97,6 @@
     .upsilon-instagram-box {
         left: 2rem;
     }
-    /* 
-    
-    
-    .upsilon-best-selling-parfum-container,.upsilon-special-perfume-container{
-        padding: 24px 0px;
-    }
-    .upsilon-best-selling-parfum-container .unisolan-product-box img{
-        width:200px;
-        height: 200px;
-    }
-    .upsilon-best-selling-parfum-container .unisolan-product-box .rating{
-        width:50px;
-        height: 30px;
-    }
-    .upslion-digital-ad-container .video-play{
-        margin: 0px;
-    }
-    .upslion-digital-ad-container iframe{
-        width: 100%;
-    }
-    .upslion-blog-container img{
-        width:200px;
-        height: 200px;
-    }
-    .upslion-blog-container .blog-box p{
-        font-size: 14px;
-    }
-    .upslion-blog-container .blog-allbox {
-        padding: 25px;
-        height: auto;
-        width: 100%;
-    }
-    .upslion-blog-container .blog-allbox p{
-        font-size: 14px;
-    }
-    .upslion-blog-container .blog-box img {
-        width: 100%;
-        height: auto;
-    }
-    .upslion-partner-container img{
-      width:100%;
-      height: auto;
-    }  
-    .upslion-youtube-review iframe{
-        width: 100%;
-        height: auto;
-    }
-    .owl-item{
-        width: auto;
-    } */
 }
 
 @media screen and (max-width:480px) {
@@ -189,5 +158,6 @@
     }
     .upsilon-instagram-box {
         left: 2rem;
+        width: 250px;
     }
 }
